@@ -21,6 +21,12 @@
 ![image](./image/1.png)
 
 # 从源码构建
++ ## 克隆项目
+    `git clone https://github.com/xmexg/tgsetu.git`  
+    `cd tgsetu`
++ ## 安装 `jdk17`
+    + <b>ubuntu</b>: `sudo apt install openjdk-17-jdk`  
+    + <b>windows</b>: 前往[oracle](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)手动下载安装
 + ## 安装 `mvn`  
     + <b>ubuntu</b>: `sudo apt install maven`  
     + <b>windows</b>:  
@@ -49,11 +55,46 @@
 
 
 # config.json配置文件
-    ``` 
+``` 
     {
-        "keyWord": ["触发命令的关键词", "/setu"],
-        "setuApi": "https://moe.jitsu.top/r18",
-        "tgBotName": "你的机器人名",
-        "tgBotToken": "你的机器人token"
+	"tgBotName": "",
+	"tgBotToken": "",
+	"message": [
+		{
+			"type": "help",
+			"keyWord": ["help", "/help", "start", "/start", "帮助", "/帮助"],
+			"intro": "色图机器人 for telegram, 仓库地址: https://github.com/xmexg/tgsetu"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/hentai", "hentai", "/setu", "setu", "色图", "涩图", "来点色图", "来点涩图", "来张色图", "来张涩图"],
+			"url": "https://moe.jitsu.top/r18",
+			"intro": "R18图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/bg", "bg", "二次元"],
+			"url": "https://www.loliapi.com/bg/",
+			"intro": "随机二次元图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/pc", "pc"],
+			"url": "https://www.loliapi.com/acg/pc/",
+			"intro": "二次元电脑图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/pe", "pe"],
+			"url": "https://www.loliapi.com/acg/pe/",
+			"intro": "二次元手机图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/tx", "tx", "头像"],
+			"url": "https://www.loliapi.com/acg/pp/",
+			"intro": "二次元头像"
+		}
+	    ]
     }
-    ```
+   ```

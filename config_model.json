@@ -1,0 +1,41 @@
+{
+	"tgBotName": "",
+	"tgBotToken": "",
+	"message": [
+		{
+			"type": "help",
+			"keyWord": ["/help@setuDaily_bot", "help", "/help", "start", "/start", "帮助", "/帮助"],
+			"intro": "色图机器人 for telegram, 仓库地址: https://github.com/xmexg/tgsetu"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/hentai@setuDaily_bot", "/hentai", "hentai", "/setu", "setu", "色图", "涩图", "来点色图", "来点涩图", "来张色图", "来张涩图"],
+			"url": "https://moe.jitsu.top/r18",
+			"intro": "R18图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/bg@setuDaily_bot", "/bg", "bg", "二次元"],
+			"url": "https://www.loliapi.com/bg/",
+			"intro": "随机二次元图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/pc@setuDaily_bot", "/pc", "pc"],
+			"url": "https://www.loliapi.com/acg/pc/",
+			"intro": "二次元电脑图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/pe@setuDaily_bot", "/pe", "pe"],
+			"url": "https://www.loliapi.com/acg/pe/",
+			"intro": "二次元手机图"
+		},
+		{
+			"type": "image",
+			"keyWord": ["/tx@setuDaily_bot", "/tx", "tx", "头像"],
+			"url": "https://www.loliapi.com/acg/pp/",
+			"intro": "二次元头像"
+		}
+	]
+}
