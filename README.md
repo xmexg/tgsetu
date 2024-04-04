@@ -51,7 +51,7 @@
 
 + ## 运行jar
     + `cd target`  
-    + `java -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPost=(你的代理端口) -jar tgst-1.0-SNAPSHOT-jar-with-dependencies.jar`
+    + `java -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPost=(你的代理端口) -jar tgst-1.0-SNAPSHOT-jar-with-dependencies.jar`  
 	国内不能连接到telegram, 有如下两种方法:  
 		1. 你尝试添加 `-Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPost=(你的http代理端口)` 设置代理
 		```
